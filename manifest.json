@@ -1,0 +1,42 @@
+{
+  "name": "Trineo - Software Company Kerala",
+  "short_name": "Trineo",
+  "description": "Top Software & Web Development Company in Kerala, India. Custom web apps, SaaS, and AI solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070a",
+  "theme_color": "#00f2ff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": [
+    "business",
+    "technology"
+  ],
+  "icons": [
+    {
+      "src": "img/Official%20logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/Official%20logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Our Services",
+      "url": "/#services",
+      "description": "View Trineo's web development services"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/#contact",
+      "description": "Get in touch with Trineo"
+    }
+  ]
+}

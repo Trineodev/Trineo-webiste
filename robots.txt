@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block any dev or admin paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Sitemap Location
+Sitemap: https://trineo.in/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 5
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /img/
