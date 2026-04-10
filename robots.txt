@@ -14,5 +14,9 @@ Disallow: /*.json$
 User-agent: Googlebot
 Allow: /
 
+# Googlebot-Image specific
+User-agent: Googlebot-Image
+Allow: /img/
+
 # Sitemap Location
 Sitemap: https://trineo.in/sitemap.xml
