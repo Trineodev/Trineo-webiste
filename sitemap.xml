@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://trineo.in/</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://trineo.in/img/Official%20logo.png</image:loc>
-            <image:title>Trineo Software Company Logo - Kerala India</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://trineo.in/bg.png</image:loc>
-            <image:title>Trineo - Top Software and Web Development Company Kerala</image:title>
-        </image:image>
     </url>
     <url>
-        <loc>https://trineo.in/#services</loc>
-        <lastmod>2026-04-10</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://trineo.in/#projects</loc>
+        <loc>https://trineo.in/about/index.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://trineo.in/#team</loc>
+        <loc>https://trineo.in/services/web-development/index.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://trineo.in/#contact</loc>
+        <loc>https://trineo.in/services/ai-automation/index.html</loc>
+        <lastmod>2026-04-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://trineo.in/services/app-development/index.html</loc>
+        <lastmod>2026-04-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://trineo.in/projects/index.html</loc>
+        <lastmod>2026-04-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://trineo.in/contact/index.html</loc>
+        <lastmod>2026-04-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://trineo.in/clients/index.html</loc>
         <lastmod>2026-04-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>

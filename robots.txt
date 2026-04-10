@@ -1,22 +1,7 @@
 User-agent: *
 Allow: /
-Allow: /img/
-Allow: /style.css
-Allow: /script.js
-
-# Block sensitive paths
+Allow: /manifest.json
 Disallow: /admin/
-Disallow: /private/
 Disallow: /config/
-Disallow: /*.json$
 
-# Googlebot specific optimizations
-User-agent: Googlebot
-Allow: /
-
-# Googlebot-Image specific
-User-agent: Googlebot-Image
-Allow: /img/
-
-# Sitemap Location
 Sitemap: https://trineo.in/sitemap.xml
