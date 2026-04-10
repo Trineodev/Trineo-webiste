@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
+    <link rel="icon" href="/favicon.png" type="image/png">
     <link rel="icon" type="image/png" href="img/Official%20logo.png">
     <link rel="apple-touch-icon" href="img/Official%20logo.png">
     <link rel="manifest" href="manifest.json">
@@ -404,5 +405,17 @@
     </footer>
 
     <script src="script.min.js" defer></script>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(reg => console.log('Trineo SW registered:', reg.scope))
+            .catch(err => console.log('SW error:', err));
+        });
+      }
+    </script>
 </body>
+
 </html>
