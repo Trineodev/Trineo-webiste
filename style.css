@@ -374,17 +374,21 @@ nav {
 .project-card {
     display: flex;
     flex-direction: column;
+    height: 100%;
     overflow: hidden;
 }
 
-.project-image {
-    height: 180px;
+.project-image, 
+.project-gallery {
+    height: 220px;
     background: rgba(0, 242, 255, 0.05);
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid var(--glass-border);
+    border-top: 1px solid var(--glass-border);
     overflow: hidden;
+    width: 100%;
 }
 
 .project-image img {
@@ -420,8 +424,11 @@ nav {
 }
 
 .project-content {
-    padding: 30px;
+    padding: 25px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .project-content h3 {
@@ -434,6 +441,7 @@ nav {
     color: var(--text-muted);
     font-size: 0.95rem;
     margin-bottom: 20px;
+    flex-grow: 1;
 }
 
 .tech-stack {
