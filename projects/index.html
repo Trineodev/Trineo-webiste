@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../img/Official%20logo.png">
+    <link rel="icon" type="image/png" href="../img/trineo-official-logo.png">
     <title>Software Development Portfolio | Trineo Projects Kerala</title>
     <meta name="description" content="Explore Trineo's portfolio of custom web apps, SaaS products, and AI solutions built for startups and enterprises across India.">
     <link rel="canonical" href="https://trineo.in/projects">
-    <link rel="stylesheet" href="../style.min.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -65,9 +65,47 @@
         <section class="projects">
             <div class="container">
                 <div class="projects-grid">
-                    <div class="service-card glass-card"><h3>E-Commerce SaaS</h3><p>Scaleable retail platform.</p></div>
-                    <div class="service-card glass-card"><h3>GST Filing Portal</h3><p>Integrated tax simulator.</p></div>
-                    <div class="service-card glass-card"><h3>Auto Service CRM</h3><p>Workshop management suite.</p></div>
+                    <div class="project-card glass-card">
+                        <h3>Trineo Task App</h3>
+                        <div class="project-gallery" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 15px 0;">
+                            <img src="../img/task-manager-app-kanban-1.png" alt="Task Manager App Kanban Dashboard" style="width:100%; border-radius:8px;">
+                            <img src="../img/task-manager-app-kanban-2.png" alt="Task Manager App Management" style="width:100%; border-radius:8px;">
+                            <img src="../img/task-manager-app-kanban-3.png" alt="Task Manager App Mobile View" style="width:100%; border-radius:8px;">
+                            <img src="../img/task-manager-app-kanban-4.png" alt="Task Manager App Settings" style="width:100%; border-radius:8px;">
+                        </div>
+                        <p>A full-stack productivity suite featuring real-time collaboration, notification systems, and cross-platform syncing.</p>
+                        <div class="tech-stack" style="margin-top:15px;"><span>#Django</span><span>#Python</span><span>#PWA</span></div>
+                    </div>
+                    <div class="project-card glass-card">
+                        <h3>E-Commerce SaaS</h3>
+                        <div class="project-gallery" style="margin: 15px 0;">
+                            <img src="../img/ecommerce-saas-dashboard-trineo.png" alt="E-Commerce SaaS Dashboard Trineo" style="width:100%; border-radius:8px;">
+                        </div>
+                        <p>Scaleable retail platform with AI inventory and automated shipment tracking.</p>
+                    </div>
+                    <div class="project-card glass-card">
+                        <h3>GST Filing Portal</h3>
+                        <div class="project-gallery" style="margin: 15px 0;">
+                            <img src="../img/gst-filing-portal-ui-india.png" alt="GST Filing Portal UI India" style="width:100%; border-radius:8px;">
+                        </div>
+                        <p>A comprehensive web simulator for GST calculations and integrated return filing workflows.</p>
+                    </div>
+                    <div class="project-card glass-card">
+                        <h3>Auto Service CRM</h3>
+                        <div class="project-gallery" style="margin: 15px 0;">
+                            <img src="../img/crm car.png" alt="Auto Service CRM Dashboard" style="width:100%; border-radius:8px;">
+                        </div>
+                        <p>Workshop management suite with billing integration and AI part prediction.</p>
+                        <div class="tech-stack" style="margin-top:10px;"><span>#MongoDB</span><span>#Express</span><span>#React</span><span>#Node.js</span></div>
+                    </div>
+                    <div class="project-card glass-card">
+                        <h3>Academic Tracker</h3>
+                        <div class="project-gallery" style="margin: 15px 0;">
+                            <img src="../img/academic.png" alt="Academic Course Tracker Dashboard" style="width:100%; border-radius:8px;">
+                        </div>
+                        <p>A smart dashboard for educators to track syllabus progression and class assignments.</p>
+                        <div class="tech-stack" style="margin-top:10px;"><span>#MongoDB</span><span>#Express</span><span>#React</span><span>#Node.js</span></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -80,6 +118,6 @@
             </div>
         </div>
     </footer>
-    <script src="../script.min.js" defer></script>
+    <script src="../script.js" defer></script>
 </body>
 </html>

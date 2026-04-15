@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="../img/Official%20logo.png">
+    <link rel="icon" type="image/png" href="../img/trineo-official-logo.png">
     <title>About Trineo | Leading Software & Tech Team Kerala India</title>
     <meta name="description" content="Meet the team at Trineo. We are Kerala's rising tech startup helping businesses across India scale with custom software, AI, and SaaS solutions.">
+    <meta name="author" content="Anal (Founder)">
     <meta name="keywords" content="Trineo Software Team, Tech founders Kerala, Software engineers Thrissur">
     <link rel="canonical" href="https://trineo.in/about">
     
@@ -14,10 +15,10 @@
     <meta property="og:title" content="Trineo | Web Development Company in Kerala">
     <meta property="og:description" content="Top software & web development company in Kerala. Meet the team.">
     <meta property="og:url" content="https://trineo.in/about">
-    <meta property="og:image" content="https://trineo.in/img/Official%20logo.png">
+    <meta property="og:image" content="https://trineo.in/img/trineo-official-logo.png">
     <meta property="og:type" content="website">
     
-    <link rel="stylesheet" href="../style.min.css">
+    <link rel="stylesheet" href="../style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;700&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
 
     <!-- Breadcrumb Schema -->
@@ -36,6 +37,42 @@
         "name": "About",
         "item": "https://trineo.in/about"
       }]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anal",
+      "jobTitle": "Founder & Lead Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Trineo Software Solutions",
+        "url": "https://trineo.in/"
+      },
+      "image": "https://trineo.in/img/anal-founder-trineo.png"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Noel",
+      "jobTitle": "Co-founder & Marketing",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Trineo Software Solutions",
+        "url": "https://trineo.in/"
+      },
+      "image": "https://trineo.in/img/noel-co-founder-trineo.png"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fayiz",
+      "jobTitle": "Co-founder & System Analyst",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Trineo Software Solutions",
+        "url": "https://trineo.in/"
+      },
+      "image": "https://trineo.in/img/MD and noel-co-founder-trineo.png"
     }
     </script>
 </head>
@@ -105,29 +142,32 @@
                     At Trineo, we believe that great software is built at the intersection of technical mastery and creative vision. Our team combines decades of collective experience in digital transformation, from architecting scalable applications to driving strategic market growth across Kerala and beyond.
                 </p>
                 <div class="team-grid">
-                    <div class="team-card glass-card">
+                    <div class="team-card glass-card" itemscope itemtype="https://schema.org/Person">
                         <div class="team-image">
-                            <img src="../img/Anal.png" alt="Anal - Founder & Lead Developer Trineo" loading="lazy" width="180" height="180">
+                            <img src="../img/anal-founder-trineo.png" alt="Anal - Founder & Lead Developer Trineo" itemprop="image" loading="lazy" width="180" height="180">
                         </div>
-                        <h3>Anal</h3>
-                        <p class="team-role">Lead Developer</p>
+                        <h3 itemprop="name">Anal</h3>
+                        <p class="team-role" itemprop="jobTitle">Lead Developer</p>
                         <p class="team-subtitle">Founder</p>
+                        <meta itemprop="worksFor" content="Trineo Software Solutions">
                     </div>
-                    <div class="team-card glass-card">
+                    <div class="team-card glass-card" itemscope itemtype="https://schema.org/Person">
                         <div class="team-image">
-                            <img src="../img/Co-Founder.png" alt="Noel - Co-founder & Marketing Trineo" loading="lazy" width="180" height="180">
+                            <img src="../img/noel-co-founder-trineo.png" alt="Noel - Co-founder & Marketing Trineo" itemprop="image" loading="lazy" width="180" height="180">
                         </div>
-                        <h3>Noel</h3>
-                        <p class="team-role">Marketing</p>
+                        <h3 itemprop="name">Noel</h3>
+                        <p class="team-role" itemprop="jobTitle">Marketing</p>
                         <p class="team-subtitle">Co-founder</p>
+                        <meta itemprop="worksFor" content="Trineo Software Solutions">
                     </div>
-                    <div class="team-card glass-card">
+                    <div class="team-card glass-card" itemscope itemtype="https://schema.org/Person">
                         <div class="team-image">
-                            <img src="../img/MD and Co-Founder.png" alt="Fayiz - Co-founder & System Analyst Trineo" loading="lazy" width="180" height="180">
+                            <img src="../img/MD and noel-co-founder-trineo.png" alt="Fayiz - Co-founder & System Analyst Trineo" itemprop="image" loading="lazy" width="180" height="180">
                         </div>
-                        <h3>Fayiz</h3>
-                        <p class="team-role">System Analyst</p>
+                        <h3 itemprop="name">Fayiz</h3>
+                        <p class="team-role" itemprop="jobTitle">System Analyst</p>
                         <p class="team-subtitle">Co-founder</p>
+                        <meta itemprop="worksFor" content="Trineo Software Solutions">
                     </div>
                 </div>
             </div>
@@ -142,6 +182,6 @@
             </div>
         </div>
     </footer>
-    <script src="../script.min.js" defer></script>
+    <script src="../script.js" defer></script>
 </body>
 </html>
