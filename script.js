@@ -1617,7 +1617,7 @@ if (contactForm) {
                 throw new Error('Formspree error');
             }
         } catch (error) {
-            btn.innerHTML = 'Error! Try Again ❌';
+            btn.innerHTML = 'Error! Try Again ?';
             btn.style.background = 'rgba(255, 50, 50, 0.2)';
             btn.style.border = '1px solid #ff3232';
             btn.style.opacity = '1';
@@ -1630,3 +1630,23 @@ if (contactForm) {
         }
     });
 }
+
+// Project Image Slider Logic
+function initProjectSliders() {
+    const sliders = document.querySelectorAll('.slider-container');
+    
+    sliders.forEach(slider => {
+        const slides = slider.querySelectorAll('.slide-img');
+        if (slides.length <= 1) return;
+        
+        let currentSlide = 0;
+        
+        setInterval(() => {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }, 3000);
+    });
+}
+
+initProjectSliders();
